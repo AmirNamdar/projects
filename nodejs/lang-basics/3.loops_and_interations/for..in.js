@@ -1,5 +1,5 @@
-// creates a loop iterating over iterable objects (including Array, Map, Set, arguments object and so on)
-const list = [0, 1, 2, 3, 4];
+// creates a loop iterating over iterable object's keys (including Array, Map, Set, arguments object and so on)
+const list = [99, 88, 77, 66, 555];
 for (const item in list) {
     console.log(item); // 0, 1, 2, 3, 4
 }
